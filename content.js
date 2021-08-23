@@ -28,10 +28,18 @@ for(let i = 0; i < strings.length; i++){
     strings[i].innerText = "The Rock";
 }
 
-// // grab titles 
-// const titles = document.getElementById("video-title")
+// grab headers 
+const headers = document.getElementsByTagName("h1")
 
-// // for each string
-// for(let i = 0; i < titles.length; i++){
-//     titles[i].innerText = "The Rock";
-// }
+// for each string
+for(let i = 0; i < headers.length; i++){
+    headers[i].innerText = "The Rock";
+}
+
+// grab h2 
+const h2 = document.getElementsByTagName("h2")
+
+// for each string
+for(let i = 0; i < h2.length; i++){
+    h2[i].innerText = "The Rock";
+}
